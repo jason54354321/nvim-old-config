@@ -1,0 +1,13 @@
+--Plugin ime.vim
+--Conflic with coc.vim
+--comment line:54
+--line:63 
+	let g:ime_menu = '<leader><Space>1'
+
+--Plugin onedark.nvim
+--changing theme colors
+--line:262
+	--javascript
+	javascriptTSFunction = { fg = c.blue0 }, -- For function (calls and definitions).
+	javascriptTSVariable = { fg = c.yellow1},
+	javascriptTSProperty = { fg = c.red0 },
